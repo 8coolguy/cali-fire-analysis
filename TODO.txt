@@ -1,0 +1,1 @@
+1. Create a graph of average fire size as the time goes by
