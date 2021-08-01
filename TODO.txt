@@ -1,1 +1,5 @@
 1. Create a graph of average fire size as the time goes by
+2. create 2d graphs for all the variables to help you 
+3. need to make more effors into why my stuff is not working 
+4.residual plots ore whateve or something also want to finsh that web page 
+5. more reading and stuff done on the fires and why the data is like that
