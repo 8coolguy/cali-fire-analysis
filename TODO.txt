@@ -3,6 +3,8 @@
 3. need to make more effors into why my stuff is not working 
 4.residual plots ore whateve or something also want to finsh that web page 
 5. more reading and stuff done on the fires and why the data is like that
+6. Instead of predicting size of wild fire I can instead predict whether or not a fire does happen for this I need data of fires not happeningls-
+7. May need to use my model with a logirathmic transform
 
 
     4 variables: 
