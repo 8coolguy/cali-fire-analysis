@@ -5,10 +5,18 @@
 5. more reading and stuff done on the fires and why the data is like that
 6. Instead of predicting size of wild fire I can instead predict whether or not a fire does happen for this I need data of fires not happeningls-
 7. May need to use my model with a logirathmic transform
-
+8. change it so that it is a predictive model versus a are predictor find the confidence of each level
+9. NEED more DATA on socioeconomic 
+10. also research on whether the fire comes bak to a deeply burned area 
 
     4 variables: 
         climate -local wather
         vegetation
         topography
         socioeconomic 
+
+Sources:
+Google Maps API:
+Cal Fires
+Weather Underground
+csac 

@@ -25,7 +25,7 @@
             $(document).ready(function() {
                 $.ajax({
                     type: 'GET',
-                    url: "http://localhost:8000/Desktop/Python/notebook/fire/fire_weather_data.csv",
+                    url: "http://localhost:8000/cali-fire-analysis/new_fire_weather_data.csv",
                     dataType: "text",
                 }).done(processData)
             });
@@ -53,7 +53,7 @@
             */
             //addMarker({lat:36.11, lng:-120.11});
             var icon = {
-                url: 'http://localhost:8000/images/icons.png',
+                url: 'http://localhost:8000/cali-fire-analysis/webPage/images/icons.png',
                 scaledSize: new google.maps.Size(15, 15)
             };
 
