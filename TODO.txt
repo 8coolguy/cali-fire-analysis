@@ -1,13 +1,14 @@
-1. Create a graph of average fire size as the time goes by
-2. create 2d graphs for all the variables to help you 
-3. need to make more effors into why my stuff is not working 
-4.residual plots ore whateve or something also want to finsh that web page 
+X1. Create a graph of average fire size as the time goes by
+X2. create 2d graphs for all the variables to help you 
+X3. need to make more effors into why my stuff is not working 
+X4.residual plots ore whateve or something also want to finsh that web page 
 5. more reading and stuff done on the fires and why the data is like that
 6. Instead of predicting size of wild fire I can instead predict whether or not a fire does happen for this I need data of fires not happeningls-
 7. May need to use my model with a logirathmic transform
 8. change it so that it is a predictive model versus a are predictor find the confidence of each level
 9. NEED more DATA on socioeconomic 
 10. also research on whether the fire comes bak to a deeply burned area 
+11. NEED MORE DATA on vegetation data if not green will it be more suspect to fire
 
     4 variables: 
         climate -local wather
