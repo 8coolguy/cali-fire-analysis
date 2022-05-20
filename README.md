@@ -2,6 +2,8 @@
 ### California Fires Analysis
 Analysis of the factors that lead to California Fires with different models. 
 
+In this project,I was trying to create a classification model that can predict the size of a fire or a classifcation model that can predict the size of the fire of big(2), medium(1),and small(0). To create this model, I decided to create a dataset with the features being the variables that I think are correlated to fires. Features I initially thought of were weather, temperature, and elevation. I also added average income in those areas to see if they have an effect on the models. 
+
 Work in progress. The data was webscraped from Wundergroud, google map api, and Cal fires using selenium or their apis. Trying to create a prdictive model of California fires. Currently having a bad time. Also looking at the UCI fire predictive paper for tips and tricks. Also playing around with this [repo](https://archive.ics.uci.edu/ml/datasets/forest+fires) to look for better techniques for analyzing my data.
 
 ### UCI Fire Data Repository
