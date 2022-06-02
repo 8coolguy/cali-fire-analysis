@@ -4,7 +4,9 @@ Analysis of the factors that lead to California Fires with different models.
 
 In this project,I was trying to create a classification model that can predict the size of a fire or a classifcation model that can predict the size of the fire of big(2), medium(1),and small(0). To create this model, I decided to create a dataset with the features being the variables that I think are correlated to fires. Features I initially thought of were weather, temperature, and elevation. I also added average income in those areas to see if they have an effect on the models.
 
-I was able to collect this data from various sources. The initial data on all the fires came from California Fires. The data for weather was webscraped from Wundergroud, google map api, using selenium or their apis. I got local county economic data with cal.gov. Most of the scraping methods are stored int the Data Collection folder.
+I was able to collect this data from various sources. The initial data on all the fires came from California Fires. Then, I was able to web scrape average temperature from the area of the fire with Weather Underground. I was also able to get the minimum temperature, and maxximum temperature, with other factor like rainfall.Next, I collected the local elevation of where the fire occured to see if elevation would have an effect on the model. Other data that I included was the average income of the population in the region where the fire was. These were all stored in a csv file and vectorized when needed.
+
+The model was
 
 Pivoted to a web app that can display the fires from 2013 to 2020 layered with other stats and such
 
