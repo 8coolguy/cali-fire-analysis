@@ -4,9 +4,12 @@ Analysis of the factors that lead to California Fires with different models.
 
 In this project,I was trying to create a classification model that can predict the size of a fire or a classifcation model that can predict the size of the fire of big(2), medium(1),and small(0). To create this model, I decided to create a dataset with the features being the variables that I think are correlated to fires. Features I initially thought of were weather, temperature, and elevation. I also added average income in those areas to see if they have an effect on the models.
 
-I was able to collect this data from various sources. The initial data on all the fires came from California Fires.
+I was able to collect this data from various sources. The initial data on all the fires came from California Fires. The data for weather was webscraped from Wundergroud, google map api, using selenium or their apis. I got local county economic data with cal.gov. Most of the scraping methods are stored int the Data Collection folder.
 
-Work in progress. The data was webscraped from Wundergroud, google map api, and Cal fires using selenium or their apis. Trying to create a prdictive model of California fires. Currently having a bad time. Also looking at the UCI fire predictive paper for tips and tricks. Also playing around with this [repo](https://archive.ics.uci.edu/ml/datasets/forest+fires) to look for better techniques for analyzing my data.
+Pivoted to a web app that can display the fires from 2013 to 2020 layered with other stats and such
+
+
+Also playing around with this [repo](https://archive.ics.uci.edu/ml/datasets/forest+fires) to look for better techniques for analyzing my data.
 
 ### UCI Fire Data Repository
 After running into some trouble analyzing my own collected fire data, I decided to try creating a good model for a different data a set. In this data set, I tried a variety of techniques to increase the classfication results. I haven't been able to have a classification score higher than 55% which is not so good.
