@@ -6,9 +6,11 @@ In this project,I was trying to create a classification model that can predict t
 
 I was able to collect this data from various sources. The initial data on all the fires came from California Fires. Then, I was able to web scrape average temperature from the area of the fire with Weather Underground. I was also able to get the minimum temperature, and maxximum temperature, with other factor like rainfall.Next, I collected the local elevation of where the fire occured to see if elevation would have an effect on the model. Other data that I included was the average income of the population in the region where the fire was. These were all stored in a csv file and vectorized when needed.
 
-The 
+<<<<<<< HEAD
+First, I preporcessed the data. I removed huge fires and really small fires from the dataset. I used the StandardScalar function in sklearn to normalize all the vectors. I then used a linear regression to determine how accurate my predictions were. The predictions had an RSME of 4000. I tested some other models to figure out that I had that linear regression was the best so far.
 
-Work in progress. The data was webscraped from Wundergroud, google map api, and Cal fires using selenium or their apis. Trying to create a prdictive model of California fires. Currently having a bad time. Also looking at the UCI fire predictive paper for tips and tricks. Also playing around with this [repo](https://archive.ics.uci.edu/ml/datasets/forest+fires) to look for better techniques for analyzing my data.
+
+	
 
 ### UCI Fire Data Repository
 After running into some trouble analyzing my own collected fire data, I decided to try creating a good model for a different data a set. In this data set, I tried a variety of techniques to increase the classfication results. I haven't been able to have a classification score higher than 55% which is not so good.
